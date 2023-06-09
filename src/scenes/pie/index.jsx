@@ -1,16 +1,16 @@
 import { Box } from "@mui/system"
 import Header from '../../components/Header'
-import BarChart from '../../components/Barchart'
+import PieChart from '../../components/Piechart'
 
-const Bar = () => {
+const Pie = () => {
     return (
         <Box m='20px'>
-            <Header title='Bar Chart' subtitle='Simple bar chart'/>
+            <Header title='Pie Chart' subtitle='Simple Pie chart'/>
             <Box height='75vh'>
-                <BarChart />
+                <PieChart />
             </Box>
         </Box>
     )
 }
 
-export default Bar
+export default Pie

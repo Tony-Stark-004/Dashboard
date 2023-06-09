@@ -11,9 +11,9 @@ import Form from './scenes/form/index'
 import Calendar from './scenes/calendar/index'
 import FAQ from './scenes/faq/index'
 import Bar from './scenes/bar/index'
-// import Line from './scenes/line'
-// import Pie from './scenes/pie'
-// import Geography from './scenes/geography'
+import Pie from './scenes/pie/index'
+import Line from './scenes/line/index'
+import Geography from './scenes/geography/index'
 
 
 
@@ -36,9 +36,9 @@ function App() {
               <Route exact path='/calendar' element={<Calendar />} />
               <Route exact path='/faq' element={<FAQ/>} />
               <Route exact path='/bar' element={<Bar />} />
-              {/* <Route exact path='/line' element={<Line />} /> */}
-              {/* <Route exact path='/pie' element={<Pie />} /> */}
-              {/* <Route exact path='/geography' element={<Geography />} /> */}
+              <Route exact path='/pie' element={<Pie />} />
+              <Route exact path='/line' element={<Line />} />
+              <Route exact path='/geography' element={<Geography />} />
             </Routes>
           </main>
         </div>

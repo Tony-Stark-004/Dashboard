@@ -6,14 +6,18 @@ html, body, #root, .app, .content {
   font-family: 'Source Sans 3', sans-serif;
 }
 
+body {
+  zoom: 88% !important;
+}
+
 .app {
   display: flex;
   position: relative;
 }
 
 ::-webkit-scrollbar {
-  width: 7px;
-  /* display: none; */
+  /* width: 7px; */
+  display: none;
 
 }
 
@@ -31,4 +35,6 @@ html, body, #root, .app, .content {
 ::-webkit-scrollbar-track:hover {
   background: #555;
 }
+
+
 
